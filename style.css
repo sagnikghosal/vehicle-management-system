@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+
+}
+nav h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 2em;
+}
+nav ul li{
+    display: inline;
+    color: gray;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+nav ul li:nth-child(5){
+    border: 1px solid rgba(128, 128, 128, 0.727);
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+select{
+    color: white;
+    background-color: black;
+    margin-left: 5px;
+}
+nav ul{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.content{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.content h1{
+    margin-bottom: 20px;
+}
+.content ul{
+    margin-top: 30px;
+}
+.content ul li{
+    display: inline;
+    margin-right: 30px;
+    background-color: rgba(128, 128, 128, 0.338);
+    padding: 10px;
+}
+.content ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content ul li:nth-child(1){
+    background-color: black;
+
+}
+.content ul li:nth-child(1) a{
+    color: white;
+}
+.imgdiv{
+    display: flex;
+    margin-top: 70px;
+}
+.img{
+    margin-right: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.707);
+    padding: 15px;
+
+}
+.img img{
+    height: 200px;
+    width: 400px;
+}
+.img p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 1200px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    
+}
+footer p{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+footer form{
+    display: flex;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+footer form input{
+    height: 30px;
+    width: 200px;
+}
+footer form button{
+    height: 35px;
+    color: black;
+    background-color: white;
+    width: 100px;
+}
